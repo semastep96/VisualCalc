@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFF;
+}
+
+.calc {
+  max-width: 364px;
+  background: #17171C;
+
+  margin: 0 auto;
+  padding: 21px 20px 25px; 
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  text-align: right;
+  margin-bottom: 16px;
+}
+
+.input_text {
+  font-size: 96px;
+  font-weight: 300;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btns-row {
+  max-width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.btn {
+  background: #2E2F38;
+  border-radius: 24px;
+  width: 69px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn + .btn {
+  margin-left: 16px;
+}
+
+.btn-clear {
+  flex-grow: 1;
+
+}
+
+.btn-delete {
+  flex-grow: 1;
+}
+
+.btn-zero {
+  flex-grow: 1;
+}
+
+.btn-light-grey {
+  background: #4E505F;
+  transition: 0.2s;
+}
+
+.btn-puprle {
+  background: #4B5EFC;
+}
+
+.btn:hover {
+  background: #32333c;
+}
+
+.btn-light-grey:hover {
+  background: #5b5c6d;
+
+}
+
+.btn-puprle:hover {
+  background: #404fd7;
+}
+
+.btn:active {
+  background: #1c1d22;
+}
+
+.btn-light-grey:active {
+  background: #444552;
+
+}
+
+.btn-puprle:active {
+  background: #3a48c2;
+}
