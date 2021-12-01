@@ -30,26 +30,10 @@ function isNotValidNumber(num) {
 
 }
 
-const input = document.querySelector('.input_text')
-const numPad = {
-  zero: document.querySelector('.btn-zero'),
-  one: document.querySelector('.btn-one'),
-  two: document.querySelector('.btn-two'),
-  tree: document.querySelector('.btn-three'),
-  four: document.querySelector('.btn-four'),
-  five: document.querySelector('.btn-five'),
-  six: document.querySelector('.btn-six'),
-  seven: document.querySelector('.btn-seven'),
-  eight: document.querySelector('.btn-eight'),
-  nine: document.querySelector('.btn-nine'),
-  clear: document.querySelector('.btn-clear'),
-  delete: document.querySelector('.btn-delete'),
-  div: document.querySelector('.btn-div'),
-  mult: document.querySelector('.btn-mult'),
-  sub: document.querySelector('.btn-sub'),
-  sum: document.querySelector('.btn-sum'),
-  result: document.querySelector('.btn-result'),
-}
+import {input, numPad} from './view.js'
+
+console.log(input)
+
 
 let a = 0
 let b = 0
